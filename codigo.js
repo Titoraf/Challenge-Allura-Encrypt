@@ -2,9 +2,18 @@ let textoSinEncriptar = '';
 let textoEncriptado = '';
 let valorPlaceholder = '';
 const copiarContenido = '';
+const caracterInvalido = /[^a-zA-Z0-9\s]/;
+
 
 function containsUppercase(str) {
     return /[A-Z]/.test(str);
+  }
+  
+
+  function containsInvalidChar(caracteres){
+    return caracterInvalido.test(caracteres)
+
+    // (caracterInvalido.test(caracteres))
   }
 
 
@@ -26,15 +35,19 @@ function encriptarTexto() {
 
     else {
 
-        if (containsUppercase(textoSinEncriptar) == true){
+
+        // if ()
+
+        if (containsUppercase(textoSinEncriptar) == true || containsInvalidChar(textoSinEncriptar) == true) {
             document.getElementById("textoAEncriptar").value = ''
-            document.getElementById("textoAEncriptar").placeholder = '¡Recuerda no poner mayúsculas!'
+            document.getElementById("textoAEncriptar").placeholder = '¡Recuerda no poner mayúsculas ni caracteres especiales!'
 
             return;
         }
 
         else {
 
+        
     document.getElementById("textoAEncriptar").placeholder = 'Ingrese el texto aquí'
 
     textoSinEncriptar = textoSinEncriptar.replaceAll("e","enter")
@@ -51,6 +64,7 @@ function encriptarTexto() {
 //Oculta la imagen y letras del cuadro y muestra el texto encriptado
     document.getElementById("contenidoCaja").style.display = "none"
     document.getElementById("verContenidoEncriptado").style.display ="block"
+
 }
 }
 
