@@ -19,7 +19,6 @@ function containsUppercase(str) {
 
 function encriptarTexto() {
 
-
     textoSinEncriptar = document.getElementById("textoAEncriptar").value;
     // valorPlaceholder = document.getElementById("textoAEncriptar").placeholder;
     
@@ -34,7 +33,6 @@ function encriptarTexto() {
     }
 
     else {
-
 
         // if ()
 
@@ -65,7 +63,7 @@ function encriptarTexto() {
     document.getElementById("contenidoCaja").style.display = "none"
     document.getElementById("verContenidoEncriptado").style.display ="block"
 
-}
+    }
 }
 
 }
@@ -105,7 +103,5 @@ function copiarTextoEncriptado() {
         console.error('Error al copiar');
         /* Rechazado - fallo al copiar el texto al portapapeles */
       });
-
-      
 
 }
