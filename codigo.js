@@ -1,6 +1,6 @@
 let textoSinEncriptar = '';
 let textoEncriptado = '';
-let valorPlaceholder = '';
+// let valorPlaceholder = '';
 const copiarContenido = '';
 const caracterInvalido = /[^a-zA-Z0-9\s]/;
 
