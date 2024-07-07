@@ -10,7 +10,9 @@ y no permite que se haga el encriptado.
 EXTRA EXTRA EXTRA:
 Tampoco permite entradas de texto vacío, así que no hay problema si das click por error.
 
-
+PROYECTO DEPLOYADO:
+https://titoraf.github.io/Challenge-Allura-Encrypt/
+******************* Accede a este link para porbar el proyecto. ************************
 
 Dev:
 Andrés Martínez.
