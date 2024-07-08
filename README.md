@@ -8,7 +8,8 @@ Igual contiene una serie de validaciones, donde no puedes incluir mayúsculas y/
 y no permite que se haga el encriptado.
 
 EXTRA EXTRA EXTRA:
-Tampoco permite entradas de texto vacío, así que no hay problema si das click por error.
+Tampoco permite entradas de texto vacío, así que no hay problema si das click por error. Así mismo, existe una validación por si colocas un texto normal o no encriptado y le das a "Deesencriptar", ¡obviamente no puedes
+desencriptar algo que no está encriptado!
 
 PROYECTO DEPLOYADO:
 https://titoraf.github.io/Challenge-Allura-Encrypt/
