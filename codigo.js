@@ -123,5 +123,16 @@ function copiarTextoEncriptado() {
         /* Rechazado - fallo al copiar el texto al portapapeles */
       });
 
+
+      document.getElementById("copiarTexto").innerHTML = '¡Copiado!'
+      document.getElementById("copiarTexto").style.backgroundColor = "#898ebb"
+
+      setTimeout(function() {
+        document.getElementById("copiarTexto").innerHTML = '¡Copiar!'
+        document.getElementById("copiarTexto").style.backgroundColor = "#D8DFE8"
+        }, 3000);
+      
+      
+
 }
 //#endregion fin de las funciones operativas
